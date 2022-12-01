@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapat okay pirmi</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: 50vh;
+            color: black;
+        }
+        .verses{
+            inline-size: 30em;
+            justify-content: center;
+            position: relative;
+            margin: auto;
+            
+        }
+        .verses p{
+            padding: 1em;
+            background: rgba(0, 10, 30, 0.1);
+            border-radius: 10px;
+            
+        }
+        .wrap{
+            background-image: url("https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            color: white;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <p style="font-family: Courier New ; text-align: center; font-weight: bolder;">"kailangan okay ta pirmi bisag lisod <br>salig lang ni God <3"</p>
+            
+        </div>
+        <div class="verses">
+            <p>You are the salt of the earth. But if the salt loses its saltiness, how can it be made salty again? It is no longer good for anything, except to be thrown out and trampled underfoot.
+                – Matthew 5:13</p>     <br>
+            <p>In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven.
+                – Matthew 5:16</p> <br>
+            <p>Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go.”
+                - Joshua 1:9 </p><br>
+            <p>But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.
+                -Romans 5:8
+            </p><br>
+            <p>And now these three remain: faith, hope and love. But the greatest of these is love.
+                -1 Corinthians 13:13
+            </p><br>
+            
+            
+        </div>
+        <div class="footer">
+            <p>For more life Bible verses <a href="https://www.biblestudytools.com/topical-verses/bible-verses-about-gods-love/" target="_blank">click this</a></p>
+        </div>
+    </div>
+   <audio id="sound" src="/jopay chorus lyrics.mp3" type="audio/mpeg" autoplay="true"></audio>
+        <script>
+            function volume(){
+                var sound = document.getElementById("sound");
+                sound.volume = 0.5;
+            }
+            volume();
+        </script>
+</body>
+</html>
