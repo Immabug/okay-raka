@@ -1,8 +1,4 @@
-function volume(){
-    var sound = document.getElementById("sound");
-    sound.volume = 0.2;
-}
-volume();
+
 const no = document.getElementById(`no`);
 const replace = document.querySelector(`.replacer`);
 let i = 0;
