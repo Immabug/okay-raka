@@ -31,6 +31,6 @@ function Noo(){
 
 function volume(){
     var sound = document.getElementById("sound");
-    sound.volume = 0.5;
+    sound.volume = 0.3;
 }
 volume();
